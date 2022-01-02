@@ -70,6 +70,10 @@
  * 3. Hitung keliling persegi menggunakan rumus diatas
  * 4. Nilai  K(Keliling Persegi  ) akan dicetak sebagai output ke perangkat output (keluaran)
  */
+// Codingan
+// var sisi = 10;
+// var keliling = 4 * sisi;
+// console.log(keliling);
 
 // Jawaban Nomor 7
 /**
@@ -87,6 +91,12 @@
  * 11. Tampilkan Keliling Balok (K)
  * 12. Selesai
  */
+// Codingan
+// var panjang = 10;
+// var lebar = 15;
+// var tinggi = 5;
+// var luas = 2 * [(panjang * lebar) + (panjang * tinggi) + (lebar * tinggi)];
+// console.log(luas);
 
 // Jawaban Nomor 8
 // const name = 'Rifki Ramadhan';
@@ -100,6 +110,6 @@
 // Jawaban Nomor 10
 var name = 'Rifki';
 var rollNumber = Math.floor(Math.random() * 50) + 1;
-var status = true;
+var status = (rollNumber % 2 == 0) ? true : false;
 console.log(name + rollNumber + status);
 

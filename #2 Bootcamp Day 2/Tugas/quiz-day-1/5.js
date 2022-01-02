@@ -61,7 +61,7 @@
  * DISPLAY resultAkhir
  */
 
- var text = "";
+ var text = "basic";
  var resultSatu = "";
  var resultAkhir = "";
  
@@ -79,7 +79,7 @@
          resultSatu += '\n';
      }
  
-     var resultDua = result.split("\n");
+     var resultDua = resultSatu.split("\n");
      resultDua.pop('');
  
      for (var k = 0; k < resultDua.length; k++) {
