@@ -17,21 +17,25 @@
  * Rules : Tidak boleh menggunakan built in function apapun!
  */
 
-let watches = ["Swiss Army", "Daniel Wallington", "Dublot"];
-let arloji = ['A', 'B', 'C', 'D', 'E'];
-
 const mentionWatch = (watches) => {
     // your code here
-    if(watches){
-        console.log('Saya punya ' + watches)
+    if (typeof watches === "object" && watches.length > 1) {
+        var kata = "Saya punya ";
+        for (var i = 0; i < watches.length; i++) {
+            (i < watches.length - 1) ? kata += watches[i] + ', ': kata += watches[i];
+        }
+        return kata;
+    } else {
+        return "Saya tidak punya arloji, trims.";
     }
-};
 
-console.log(mentionWatch(watches["Swiss Army", "Daniel Wellington", "Dublot"]))
-// Saya punya Swiss Army, Daniel Wellington, dan Dublot.
+}
+
+console.log(mentionWatch(["Swiss Army", "Daniel Wellington", "Dublot"]))
+    // Saya punya Swiss Army, Daniel Wellington, dan Dublot.
 console.log(mentionWatch(["A", "B", "C", "D", "E"]))
-// Saya punya A, B, C, D, dan E.
+    // Saya punya A, B, C, D, dan E.
 console.log(mentionWatch([]))
-// Saya tidak punya arloji, trims.
+    // Saya tidak punya arloji, trims.
 console.log(mentionWatch())
-// Saya tidak punya arloji, trims.
+    // Saya tidak punya arloji, trims.

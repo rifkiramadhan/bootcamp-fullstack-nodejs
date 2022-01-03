@@ -19,7 +19,22 @@
  */
 
 const breakMoney = doit => {
-    //code here
+    if (doit >= 35000) {
+        var kembalian = [];
+        var sepuluhribu = (doit - 5000) / 10000;
+        var gojeng = doit % sepuluhribu;
+
+        kembalian.push({ 10000: sepuluhribu, 5000: gojeng });
+        return kembalian
+    } else if (doit < 10000) {
+        var kembalian = [];
+        var duaribu = (doit - 500) % 2000 / 1000;
+        var serebu = doit % 1000 / 500;
+        var gope = doit % 1000 / 500;
+
+        kembalian.push({ 2000: duaribu, 1000: serebu, 500: gope });
+        return kembalian;
+    }
 }
 
 // Test Case
