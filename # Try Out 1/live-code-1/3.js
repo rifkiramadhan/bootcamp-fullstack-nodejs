@@ -63,7 +63,6 @@ let groups = [
     }
 ]
 
-
 function hireGroup(groups, budget) {
     // code di sini
     var kas = budget;
