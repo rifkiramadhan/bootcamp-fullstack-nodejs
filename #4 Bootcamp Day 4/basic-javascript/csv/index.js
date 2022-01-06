@@ -42,6 +42,7 @@ const addStudent = student => {
 
 addStudent(["tests", 2.75, 'indramayu', 'trisakti'])
 addStudent(["admin", 3.00, 'kuningan', 'tarumanagara'])
+addStudent(["rifki", 4.00, 'jakarta', 'unas'])
 
 const saveCSV = () => {
     let arrTemp = []

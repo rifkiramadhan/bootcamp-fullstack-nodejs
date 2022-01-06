@@ -1,0 +1,27 @@
+[
+   {
+      "id": 1,
+      "task": "Belajar JS",
+      "status": true
+   },
+   {
+      "id": 2,
+      "task": "Explore OOP",
+      "status": false
+   },
+   {
+      "id": 3,
+      "task": "Explore MVC",
+      "status": true
+   },
+   {
+      "id": 4,
+      "task": "Kerjakan tugas OOP",
+      "status": false
+   },
+   {
+      "id": 5,
+      "task": "Kerjakan tugas Basic",
+      "status": true
+   }
+]

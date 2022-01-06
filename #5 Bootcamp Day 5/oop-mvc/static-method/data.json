@@ -1,0 +1,37 @@
+[
+   {
+      "id": 1,
+      "name": "God Of War 5",
+      "genre": "action",
+      "year": 2021,
+      "isReleased": false
+   },
+   {
+      "id": 2,
+      "name": "Story Of Season",
+      "genre": "rpg",
+      "year": 2021,
+      "isReleased": false
+   },
+   {
+      "id": 3,
+      "name": "Crash Team Racing 3rd gen",
+      "genre": "racing",
+      "year": 2019,
+      "isReleased": true
+   },
+   {
+      "id": 4,
+      "name": "Uncharted 5",
+      "genre": "action",
+      "year": 2018,
+      "isReleased": true
+   },
+   {
+      "id": 5,
+      "name": "Harvest Moon",
+      "genre": "rpg",
+      "year": 2000,
+      "isReleased": true
+   }
+]

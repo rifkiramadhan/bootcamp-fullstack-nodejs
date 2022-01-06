@@ -1,0 +1,23 @@
+[
+   {
+      "id": 1,
+      "name": "ASUS -7-10500",
+      "type": "laptop",
+      "price": 10500000,
+      "isSold": true
+   },
+   {
+      "id": 2,
+      "name": "Dell",
+      "type": "laptop",
+      "price": 7500000,
+      "isSold": false
+   },
+   {
+      "id": 3,
+      "name": "Razor Gaming",
+      "type": "mouse",
+      "price": 500000,
+      "isSold": true
+   }
+]
