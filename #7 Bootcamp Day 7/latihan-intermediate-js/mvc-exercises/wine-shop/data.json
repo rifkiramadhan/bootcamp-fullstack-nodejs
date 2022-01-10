@@ -1,0 +1,37 @@
+[
+   {
+      "id": 1,
+      "name": "Moscato 2010",
+      "year": 2010,
+      "type": "Red",
+      "createdAt": "2021-01-10"
+   },
+   {
+      "id": 2,
+      "name": "Red Caliber",
+      "year": 2015,
+      "type": "Red",
+      "createdAt": "2021-10-22T07:50:03.912Z"
+   },
+   {
+      "id": 3,
+      "name": "Extra Wine",
+      "year": 2010,
+      "type": "Red",
+      "createdAt": "2021-10-22T07:50:29.232Z"
+   },
+   {
+      "id": 4,
+      "name": "White Dove",
+      "year": 2005,
+      "type": "White",
+      "createdAt": "2021-10-22T08:07:29.274Z"
+   },
+   {
+      "id": 5,
+      "name": "Anonym Grapee",
+      "year": 2015,
+      "type": "Other",
+      "createdAt": "2021-10-22T08:07:52.512Z"
+   }
+]
