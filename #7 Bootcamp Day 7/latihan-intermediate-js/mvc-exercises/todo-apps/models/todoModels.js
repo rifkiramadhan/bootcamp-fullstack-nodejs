@@ -112,7 +112,7 @@ class Todo {
 
         let temp = [];
         for(var i = 0; i < complete.length; i++){
-            if (complete[i].id === +complete_id){
+            if (complete[i].id === Number(complete_id)){
                 temp.push(complete[i].task);
             };
         };
@@ -146,7 +146,7 @@ class Todo {
         
         let temp = [];
         for(var i = 0; i < uncomplete.length; i++){
-            if (uncomplete[i].id === +uncomplete_id){
+            if (uncomplete[i].id === Number(uncomplete_id)){
                 temp.push(uncomplete[i].task);
             };
         };

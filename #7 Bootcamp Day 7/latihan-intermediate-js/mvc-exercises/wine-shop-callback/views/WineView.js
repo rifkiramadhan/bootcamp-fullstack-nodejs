@@ -22,6 +22,10 @@ class WineView {
     static message(message){
         console.log(message);
     };
+
+    static error(err){
+        console.log(err);
+    };
 };
 
 module.exports = WineView;

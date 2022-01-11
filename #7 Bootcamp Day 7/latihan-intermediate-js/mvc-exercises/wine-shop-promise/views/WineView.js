@@ -12,7 +12,6 @@ class WineView {
 
     static wines(wines) {
         console.log(`Welcome to Wine Management apps: `);
-        // console.log(wines)
         wines.forEach(wine => {
             const { id, name } = wine;
             console.log(`${id}. ${name}`);
@@ -21,6 +20,10 @@ class WineView {
 
     static message(message){
         console.log(message);
+    };
+
+    static error(err){
+        console.log(err);
     };
 };
 

@@ -19,5 +19,19 @@
       "year": null,
       "type": "Other",
       "createdAt": "2022-01-11T06:52:21.995Z"
+   },
+   {
+      "id": 7,
+      "name": "Silver Coast",
+      "year": 2021,
+      "type": "white",
+      "createdAt": "2022-01-11T09:24:29.532Z"
+   },
+   {
+      "id": 8,
+      "name": "Gold Coast",
+      "year": 2021,
+      "type": "Red",
+      "createdAt": "2022-01-11T09:24:54.040Z"
    }
 ]
