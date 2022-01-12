@@ -1,0 +1,23 @@
+[
+   {
+      "id": 1,
+      "task": "Belajar Back End",
+      "status": true,
+      "createdAt": "2021-10-25",
+      "updatedAt": "2021-10-25"
+   },
+   {
+      "id": 2,
+      "task": "Explore Back End",
+      "status": true,
+      "createdAt": "2022-01-12T09:47:21.528Z",
+      "updatedAt": null
+   },
+   {
+      "id": 3,
+      "task": "Explore Front End",
+      "status": true,
+      "createdAt": "2022-01-12T10:38:59.611Z",
+      "updatedAt": null
+   }
+]
