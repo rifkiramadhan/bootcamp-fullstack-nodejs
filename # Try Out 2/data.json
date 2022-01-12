@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Green Field",
+    "livestocks": [
+      {
+        "id": 1,
+        "type": "chicken",
+        "eggs": 10
+      },
+      {
+        "id": 2,
+        "type": "cow",
+        "milks": 5
+      },
+      {
+        "id": 3,
+        "type": "sheep",
+        "wools": 3
+      }
+    ]
+  }
+]
