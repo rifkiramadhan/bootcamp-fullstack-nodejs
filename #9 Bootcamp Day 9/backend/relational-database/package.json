@@ -1,0 +1,24 @@
+{
+  "name": "relational-database",
+  "version": "1.0.0",
+  "description": "- npm init -y\r   - Untuk membuat file package.json secara automatice\r - npm install express pg sequelize ejs dotenv\r   - Untuk menginstall express, postgres, sequelize, ejs, dan dotenv\r - npm install nodemon sequelize-cli --seve-dev\r   - Untuk menginstall nodemon, sequelize-cli yang disimpan ke dalam devDependencies untuk mode development",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  }
+}

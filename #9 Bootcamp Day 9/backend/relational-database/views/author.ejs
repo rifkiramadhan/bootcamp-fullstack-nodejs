@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author and Book</title>
+
+    <!-- My Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+          crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="contaier text-center">
+            <h3>Author and Books</h3>
+            <a class="btn btn-sm btn-primary" href="/authors">Author List</a>
+            <a class="btn btn-sm btn-primary" href="/books">Book List</a>
+        </div>
+        <hr/>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Authors List</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <% authors.forEach(author => { %>
+                <div class="col-2">
+                    <div class="card">
+                        <img class="card-img-top" src="<%= author.image %>" alt="Images">
+                        <div class="card-body">
+                            <h3><%= author.name %></h3>
+                            <small><%= author.age %> Years Old</small>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 ## Latihan Express JS
-- [x] [Dokumentasi Postman](https://documenter.getpostman.com/view/10749611/UVXhpc6D)
+- [x] [Dokumentasi Postman](https://documenter.getpostman.com/view/10749611/UVXhrcuP)
 - [x] [Express JS](https://expressjs.com/en/starter/installing.html)
 
 ### Notes
