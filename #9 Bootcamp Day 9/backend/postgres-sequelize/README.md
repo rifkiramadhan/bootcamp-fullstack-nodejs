@@ -1,6 +1,6 @@
 ## Latihan Postgres Sequelize
-- [x] [Dokumentasi Postman](https://documenter.getpostman.com/view/10749611/UVXhpc6D)
-- [x] [Sequalize](https://sequelize.org/v6/manual/model-querying-basics.html)
+- [x] [Dokumentasi Postman](https://documenter.getpostman.com/view/10749611/UVXhrcuP)
+- [x] [Sequelize](https://sequelize.org/v6/manual/model-querying-basics.html)
 
 ### Notes
 - Baca keterangan dari atas ke bawah
@@ -9,7 +9,7 @@
 - npm install express pg sequelize
   - Untuk menginstall experss, postgres, dan sequalize
 - npm install nodemon sequelize-cli --save-dev
-  - Untuk menginstall nodemon, sequalize-cli yang di simpan kedalam devDependencies untuk mode development
+  - Untuk menginstall nodemon, sequelize-cli yang di simpan kedalam devDependencies untuk mode development
 - npx sequelize-cli init
   - Langkah pertama untuk membuat sequelize
 - npx sequelize-cli db:create
@@ -21,7 +21,7 @@
 - npx sequelize-cli seed:generate --name todo-seeder
   - Untuk membuat seeder dengan nama too-seeder secara migrasi
 - npx sequelize-cli db:seed:all
-  - Untuk menamahkan data yang di input dari format json secara migrasi
+  - Untuk menambahkan data yang di input dari format json secara migrasi
 
 ### Work Flow
 - Membuat file app.js, kemudian jalankan servernya
