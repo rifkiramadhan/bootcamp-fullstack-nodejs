@@ -1,6 +1,6 @@
 ## Latihan Relational Database
 - [x] [Dokumentasi Postman](https://documenter.getpostman.com/view/10749611/UVXhrcuP)
-- [x] [Image Placeholder](hthttps://placeholder.com/)
+- [x] [Image Placeholder](https://placeholder.com/)
 
 ## Notes
 - Baca keterangan dari atas ke bawah
