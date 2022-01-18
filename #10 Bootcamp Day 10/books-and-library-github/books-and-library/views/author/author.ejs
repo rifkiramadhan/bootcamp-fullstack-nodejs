@@ -1,0 +1,38 @@
+<%- include('../layouts/header') %> 
+
+    <div class="container-fluid">
+        <div class="contaier text-center">
+            <h3>Author and Books</h3>
+            <a class="btn btn-sm btn-primary" href="/authors">Refresh List</a>
+            <a class="btn btn-sm btn-primary" href="/">Home</a>
+        </div>
+        <hr/>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Authors List</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <% authors.forEach(author => { %>
+                <div class="col-md-2">
+                    <div class="card">
+                        <img class="card-img-top" src="<%= author.image %>" alt="Images">
+                        <div class="card-body">
+                            <h6><%= author.name %></h6>
+                            <small><%= author.age %> Years Old</small>
+                        </div>
+                        <div class="d-flex gap-2 m-4">
+                            <a class="btn btn-sm btn-primary" href="/authors/edit/<%= author.id %>">Ubah</a>
+                            <a class="btn btn-sm btn-danger" href="/authors/delete/<%= author.id %>">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+
+<%- include('../layouts/footer') %> 

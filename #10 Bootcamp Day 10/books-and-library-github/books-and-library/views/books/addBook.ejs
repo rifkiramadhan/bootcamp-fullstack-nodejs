@@ -1,0 +1,66 @@
+<%- include('../layouts/header') %> 
+
+    <div class="container">
+        <div class="text-center">
+            <h1>Add Book Page</h1>
+            <p>Ini adalah Add Book Page untuk paragraph untuk todo apps</p>
+            <a class="btn btn-sm btn-primary" href="/">Home</a>
+            <a class="btn btn-sm btn-primary" href="/books">Book List</a>    
+        </div>
+
+        <hr/>
+
+        <div class="row">
+            <div class="col-6-mx-auto">
+                <form action="/books/add" method="post">
+                    <div class="mb-3">
+                        <label for="title">Book Title: </label>
+                        <input class="form-control" type="text" name="title" id="title" placeholder="Input Your Title" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="genre" class="form-label">Genre</label>
+                        <select name="genre" id="genre" class="form-select" required>
+                          <option value="Article" disabled selected>-- Pilih Genre --</option>
+                          <option value="Article">Article</option>
+                          <option value="Biography">Biography</option>
+                          <option value="Drama">Drama</option>
+                          <option value="Fantasy">Fantasy</option>
+                          <option value="Fiction">Fiction</option>
+                        </select>
+                      </div>
+                    
+                    <div class="mb-3">
+                        <label for="page">Book Page: </label>
+                        <input class="form-control" type="text" name="page" id="page" placeholder="Input Your Page" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="price">Book Price: </label>
+                        <input class="form-control" type="text" name="price" id="price" placeholder="Input Your Price" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="image">Book Image: </label>
+                        <input class="form-control" type="text" name="image" id="image" placeholder="Input Your Image" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="released_date">Book Release Date: </label>
+                        <input class="form-control" type="date" name="released_date" id="released_date" placeholder="Input Your Release Date" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="authorId">Book Author ID: </label>
+                        <input class="form-control" type="text" name="authorId" id="authorId" placeholder="Input Your Author ID" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-sm btn-success" type="submit">Add Book</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<%- include('../layouts/footer') %> 

@@ -9,10 +9,10 @@ class TodoController {
         })
         .then(todos => {
             // Untuk menjalankan JSON API
-            res.json(todos);
+            // res.json(todos);
 
             // Untuk menjalankan ejs
-            // res.render('todo.ejs', {todos});
+            res.render('todo.ejs', {todos});
         })
         .catch(err => {
             res.json(err);
@@ -32,10 +32,10 @@ class TodoController {
         })
         .then(result => {
             // Untuk menjalankan JSON API
-            res.json(result);
+            // res.json(result);
             
             // Untuk menjalankan ejs
-            // res.redirect('/todos');
+            res.redirect('/todos');
         })
         .catch(err => {
             res.json(err);
@@ -70,12 +70,12 @@ class TodoController {
         .then(result => {
             if (result === 1) {
                 // Untk mengarah ke routes todos setelah di delete
-                // res.redirect('/todos');
+                res.redirect('/todos');
 
                 // Untuk memberikan kesan setelah di delete
-                res.json({
-                    message: `Id ${id} has been successfully deleted`,
-                });
+                // res.json({
+                //     message: `Id ${id} has been successfully deleted`,
+                // });
             } else {
                 res.json({
                     message: `The id ${id} does not exist`,

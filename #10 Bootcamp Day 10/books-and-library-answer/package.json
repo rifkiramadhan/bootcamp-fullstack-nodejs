@@ -1,0 +1,32 @@
+{
+  "name": "books-and-library",
+  "version": "1.0.0",
+  "description": "Perusahaan Bookstore meminta bantuan anda untuk membuat aplikasi yang melakukan listing terhadap buku-buku yang mereka miliki.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Batch-15-Code-id/books-and-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Batch-15-Code-id/books-and-library/issues"
+  },
+  "homepage": "https://github.com/Batch-15-Code-id/books-and-library#readme",
+  "dependencies": {
+    "dotenv": "^14.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}

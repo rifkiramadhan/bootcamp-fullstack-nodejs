@@ -1,0 +1,39 @@
+<%- include('../layouts/header') %>
+
+    <div class="container">
+        <div class="text-center">
+            <h1>Add Author Page</h1>
+            <p>Ini adalah Add Author Page untuk paragraph untuk todo apps</p>
+            <a class="btn btn-sm btn-primary" href="/">Home</a>
+            <a class="btn btn-sm btn-primary" href="/authors">Author List</a>    
+        </div>
+
+        <hr/>
+
+        <div class="row">
+            <div class="col-6-mx-auto">
+                <form action="/authors/add" method="post">
+                    <div class="mb-3">
+                        <label for="name">Author Name: </label>
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Input Your Book Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="age">Author Age: </label>
+                        <input class="form-control" type="text" name="age" id="age" placeholder="Input Your Age" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="image">Image Link: </label>
+                        <input class="form-control" type="text" name="image" id="image" placeholder="Input Your Image Link" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-sm btn-success" type="submit">Add Author</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<%- include('../layouts/footer') %> 

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Travel to Jakarta",
+        "genre": "travel",
+        "page": 100,
+        "price": 105000,
+        "image": "https://via.placeholder.com/150",
+        "released_date": "2022-01-01",
+        "authorId": 1
+    }
+]
