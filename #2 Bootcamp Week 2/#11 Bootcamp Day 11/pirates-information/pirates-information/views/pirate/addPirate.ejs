@@ -1,0 +1,47 @@
+<%- include('../layouts/header') %> 
+<%- include('../layouts/navbar') %> 
+
+    <div class="container">
+        <h1 class="text-center mb-4">Pirates List</h1>
+        <a class="btn btn-sm btn-primary" href="/">Home</a>
+        <a class="btn btn-sm btn-primary" href="/pirates">Pirates List</a>    
+        <hr/>
+
+        <div class="row">
+            <div class="col-6-mx-auto">
+                <form action="/pirates/add" method="post">
+                    <div class="mb-3">
+                        <label for="name">Pirate Name: </label>
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Input Pirate Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="status">Pirate Status: </label>
+                        <select class="form-select" name="status">
+                            <option disabled selected>-- Pilih Status Pirate --</option>
+                            <option value="Berhasil">Berhasil</option>
+                            <option value="Gagal">Gagal</option>
+                            <option value="Aktif">Aktif</option>
+                            <option value="Off">Off</option>
+                        </select>                     
+                    </div>
+                    <div class="mb-3">
+                        <label for="type">Pirate Type: </label>
+                        <select class="form-select" name="type">
+                            <option disabled selected>-- Pilih Type Pirate --</option>
+                            <option value="Fighter">Fighter</option>
+                            <option value="Rogue">Rogue</option>
+                            <option value="Mage">Mage</option>
+                            <option value="Demon">Demon</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-sm btn-success" type="submit">Add Pirate</button>
+                        <button class="btn btn-sm btn-danger" type="reset">Reset Pirate</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<%- include('../layouts/footer') %> 

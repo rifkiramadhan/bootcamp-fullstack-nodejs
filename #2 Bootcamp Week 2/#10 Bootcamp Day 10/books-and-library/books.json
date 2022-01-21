@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript For Beginner",
+        "author": "Rifki Ramadhan",
+        "released_date": "2022-01-18",
+        "pages": 500,
+        "genre": "Programming"
+    },
+    {
+        "id": 2,
+        "title": "Belajar JS Bersama Rifki",
+        "author": "Rifki Ramadhan",
+        "released_date": "2022-01-18",
+        "pages": 300,
+        "genre": "Programming"
+    },
+    {
+        "id": 3,
+        "title": "Traveling to Indonesia",
+        "author": "Rifki Ramadhan",
+        "released_date": "2022-01-18",
+        "pages": 50,
+        "genre": "Adventure"
+    }
+]

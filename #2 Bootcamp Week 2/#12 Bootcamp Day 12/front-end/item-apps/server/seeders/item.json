@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Asus i7 PC",
+        "type": "Desktop",
+        "image": "https://via.placeholder.com/300",
+        "price": 15000000,
+        "stock": 10,
+        "userId": 1
+    }
+]

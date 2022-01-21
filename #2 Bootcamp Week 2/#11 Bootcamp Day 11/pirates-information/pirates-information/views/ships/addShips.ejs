@@ -1,0 +1,48 @@
+<%- include('../layouts/header') %>
+<%- include('../layouts/navbar') %>
+
+    <div class="container">
+        <h1 class="text-center mb-4">Add Ships Page</h1>
+        <a class="btn btn-sm btn-primary" href="/">Home</a>
+        <a class="btn btn-sm btn-primary" href="/ships">Ships List</a>
+        <hr/>
+
+        <div class="row">
+            <div class="col-6-mx-auto">
+                <form action="/ships/add" method="post">
+                    <div class="mb-3">
+                        <label for="name">Ships Name: </label>
+                        <select class="form-select" name="name">
+                            <option disabled selected>-- Pilih Name Ships --</option>
+                            <option value="Oro Jackson">Oro Jackson</option>
+                            <option value="Red Force">Red Force</option>
+                            <option value="Dragon's Ship">Dragon's Ship</option>
+                            <option value="Thousand Sunny">Thousand Sunny</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="type">Ships Type: </label>
+                        <select class="form-select" name="type">
+                            <option disabled selected>-- Pilih Type Ships --</option>
+                            <option value="Newbie">Newbie</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Public">Public</option>
+                            <option value="Expert">Expert</option>
+                            <option value="Random">Random</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="power">Ships Power: </label>
+                        <input class="form-control" type="number" name="power" id="power" placeholder="Input Pirate Ship Power" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-sm btn-success" type="submit">Add Ships</button>
+                        <button class="btn btn-sm btn-danger" type="reset">Reset Ships</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<%- include('../layouts/footer') %> 

@@ -1,0 +1,28 @@
+<%- include('../layouts/header') %> 
+<%- include('../layouts/navbar') %> 
+
+    <div class="container">
+        <h1 class="text-center mb-4">Pirates List</h1>
+        <a class="btn btn-sm btn-primary" href="/">Home</a>
+        <a class="btn btn-sm btn-primary" href="/pirates">Refresh List</a>
+        <hr/>
+        <div class="row">
+            <% pirate.forEach(pirates => { %>
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5><%= pirates.name %></h5>
+                            <p><%= pirates.status %></p>
+                            <small class="badge bg-primary rounded-pill"><%= pirates.type %></small>
+                        </div>
+                        <div class="d-flex gap-2 m-4">
+                            <a class="btn btn-sm btn-primary" href="/pirates/edit/<%= pirates.id %>">Ubah</a>
+                            <a class="btn btn-sm btn-danger" href="/pirates/delete/<%= pirates.id %>">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+
+<%- include('../layouts/footer') %> 
