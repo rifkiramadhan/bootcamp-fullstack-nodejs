@@ -1,0 +1,8 @@
+Link 1: https://drive.google.com/file/d/1GHPf6o2ewYcUte43uBcNdMLPDY38SpQy/view?usp=sharing
+Link 2: https://drive.google.com/file/d/1iPd1HZylBYOsLNE9UmVZnVlX5KAd_YMg/view?usp=sharing
+
+- Cara Solving Error Project React:
+
+1. npm uninstall -g create-react-app
+2. npx clear-npx-cache
+3. npx create-react-app myapp
