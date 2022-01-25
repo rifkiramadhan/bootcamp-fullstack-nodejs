@@ -1,0 +1,12 @@
+.kotak {
+    width: 600px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 1px #000;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h3 {
+    color: blue;
+}

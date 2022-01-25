@@ -1,0 +1,25 @@
+{
+    "books": [
+        {
+          "id": 1,
+          "image": "https://via.placeholder.com/150",
+          "title": "JavaScript for Dummies",
+          "price": 15000,
+          "type": "Logic"
+        },
+        {
+          "id": 2,
+          "image": "https://via.placeholder.com/150",
+          "title": "Bootstrap for Dummies",
+          "price": 35000,
+          "type": "Logic"
+        },
+        {
+          "id": 3,
+          "image": "https://via.placeholder.com/150",
+          "title": "Express for Dummies",
+          "price": 50000,
+          "type": "Logic"
+        }
+      ]
+}
